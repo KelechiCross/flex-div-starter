@@ -106,32 +106,17 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0em 2em;
   font-size: 1.25em;
-  color: #fff;
-  display:flex;
-  justify-content: center;
+  height: 100%;
+  background-color: #d2d8d2;
 }
 
 .wrapper {
-    /*add display:flex and set justify-content to space-between*/
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-  }
-
-header, footer {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-main {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-bottom: 1px solid #999;
+  /*add display:flex and set justify-content to space-between*/
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
 
 }
 
@@ -139,14 +124,18 @@ main {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 0.9em;
-  height: 300px;
+  height: auto;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
   margin: 0%;
   
+}
+
+.div-1, .div-2 {
+    border-right: 1px solid #999;
+    padding-right: 30px;
 }
 
 .div-1, .div-2 {
